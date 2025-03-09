@@ -1,0 +1,44 @@
+{
+    "ram_usage_percent": 70,
+    "max_buffer_frames": null,
+    "use_gpu": true,
+    "jpeg_quality": 95,
+    "worker_threads": null,
+    "gpu_monitoring": true,
+    "output_format": "jpg",
+    "output_template": "frame_{:06d}",
+    "resize_output": null,
+    "extract_interval": 1,
+    "recursive_scan": false,
+    "video_extensions": [
+        ".mp4",
+        ".avi",
+        ".mkv",
+        ".mov",
+        ".wmv"
+    ],
+    "preview_mode": false,
+    "preview_frames": 10,
+    "preview_interval": "equal",
+    "colors": {
+        "success": "green",
+        "error": "red",
+        "warning": "yellow",
+        "info": "cyan",
+        "highlight": "magenta",
+        "normal": "white"
+    },
+    "messages": {
+        "start": "Starting frame extraction...",
+        "complete": "Frame extraction completed successfully!",
+        "error_video_open": "Error: Could not open video file. Please check the path.",
+        "error_output_dir": "Error: Could not create output directory.",
+        "info_gpu_available": "CUDA is available with {devices} device(s)",
+        "info_gpu_unavailable": "CUDA is NOT available in OpenCV. Using CPU mode.",
+        "info_using_gpu": "Using GPU acceleration for video decoding",
+        "info_using_cpu": "Using CPU for video decoding",
+        "batch_start": "Starting batch processing of {count} videos...",
+        "batch_complete": "Batch processing completed. Processed {success} videos successfully, {failed} failed.",
+        "preview_complete": "Preview extraction complete. Sample frames available in {dir}"
+    }
+}
